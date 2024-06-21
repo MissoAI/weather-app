@@ -11,4 +11,4 @@ https://github.com/MissoAI/weather-app.git
 ```
 
 # Additional Note:
-  * Fell free to change it!
+  * Feel free to change it!
