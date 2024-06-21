@@ -1,5 +1,5 @@
 # Weather Application !
-Weather application built with React
+Weather application built with ReactJS
 # Features:
   * Shows cities' weather data fast.
   * Easy to use
