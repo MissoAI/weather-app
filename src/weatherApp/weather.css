@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+html {
+    background-image: url(./assets/nature.png);
+}
+body {
+    background-image: url(./assets/nature.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.weather-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 9em;
+    width: 35em;
+    background-image: radial-gradient(circle at top right, rgb(175, 190, 228) 0%, rgb(105, 135, 213) 14.286%,rgb(94, 121, 206) 14.286%, rgb(94, 121, 206) 28.572%,rgb(82, 107, 199) 28.572%, rgb(82, 107, 199) 42.858%,rgb(71, 94, 193) 42.858%, rgb(71, 94, 193) 57.144%,rgb(59, 80, 186) 57.144%, rgb(59, 80, 186) 71.43%,rgb(48, 66, 179) 71.43%, rgb(48, 66, 179) 85.716%,rgb(36, 52, 172) 85.716%, rgb(36, 52, 172) 100.002%);
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.781);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: system-ui;
+    color: hsl(160, 79%, 81%);
+}
+input {
+    height: 3em;
+    width: 17em;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px hsl(27, 84%, 63%) solid;
+}
+button {
+    height: 4em;
+    font-size: 15px;
+    font-family: 'Rubik';
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+p {
+    font-family: 'Rubik';
+    margin: 10px;
+}
+.Clouds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    background-image: radial-gradient(circle at top right, rgb(105, 135, 213) 0%, rgb(105, 135, 213) 14.286%,rgb(94, 121, 206) 14.286%, rgb(94, 121, 206) 28.572%,rgb(82, 107, 199) 28.572%, rgb(82, 107, 199) 42.858%,rgb(71, 94, 193) 42.858%, rgb(71, 94, 193) 57.144%,rgb(59, 80, 186) 57.144%, rgb(59, 80, 186) 71.43%,rgb(48, 66, 179) 71.43%, rgb(48, 66, 179) 85.716%,rgb(36, 52, 172) 85.716%, rgb(36, 52, 172) 100.002%);
+    margin-top: 5px;
+}
+
+#temp {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+#weather {
+    font-size: 1.5em;
+    color: gainsboro;
+}
+
+.weather-data {
+    border-right: 2px solid white;
+    padding-right: 50px;
+}
+#date {
+    font-size: 1.5em;
+    color: gainsboro;
+    font-weight: 500;
+}
+#city {
+    font-size: 1.9em;
+    color: greenyellow;
+
+}
