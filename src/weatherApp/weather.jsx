@@ -73,7 +73,6 @@ function WeatherApp() {
         </section>
         <section className="city-data">
           <p id="city">
-            <img src="./assets/location.png" alt="" style={{margin : "0"}} />
             {weatherData.name ? weatherData.name : ""}
           </p>
           <p id="date">
