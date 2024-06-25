@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./weather.css";
 
 function WeatherApp() {
-  const [weatherData, setWeatherData] = useState({});
+  const [ weatherData, setWeatherData ] = useState({});
   const date = new Date();
   const monthNames = [
     "January",
@@ -47,7 +47,6 @@ function WeatherApp() {
         card.style.display = "flex";
       }
       setWeatherData(data);
-      console.log(data);
     } catch (err) {
       console.error(err);
     }
